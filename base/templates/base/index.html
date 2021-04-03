@@ -4,9 +4,78 @@
 <head>
 	<title>Girish Mani</title>
 	<link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	
 </head>
 <body>
-	<h1>Girish</h1>
+	<br>
+	<div class='container'>
+		<div class = 'row'>
+			<div class='col-md-3'>
+				<div class="card card-body h-100" id = "profile-wrapper">
+					<img id = 'profile-pic'  src="{% static 'images/a.jpg' %}">
+					<br>
+					<h4>Hi, I'm Girish!</h4>
+					<p>I love coding, doing research and new things!</p>
+				</div>
+			</div>
+			<div class='col-md-9'>
+				<div class="card card-body h-100">
+					<h4>My First Job as a Developer</h4>
+					<br>
+					<p>2 months of training in Java and with little to no knowledge of python, I was asked to assist a lead django developer, having heard of the term 'django' only two to three times in my lifetime. </p>
+
+
+					<p>Before I learnt the basics of the hilarious framework, the lead developer flee and I became the prime target. My newbie self was now incharge of the whole backend, from developing services to deploying them.</p>
+
+					<p>From this you'll see that I'm someone that jumps before I can talk myself out of doing something scary.</p>
+
+					<ul class='social-links'>
+						<li>
+							<a href="https://www.linkedin.com/in/girish-mani-246b30146/">
+								<img class="social" src="{% static 'images/linkedin.png' %}">
+							</a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/gii_rish_/">
+								<img class="social" src="{% static 'images/insta.png' %}">
+							</a>
+						</li>
+						<li>
+							<a href="https://www.github.com/gii-rish/">
+								<img class="social" src="{% static 'images/git.png' %}">
+							</a>
+						</li>
+						
+					</ul>
+				</div>				
+			</div>
+		</div>
+		<br>
+		<div class = 'row'>
+			<div class='col-md-6'>
+				<div class="card card-body h-100">
+					<h5>My Experience as a Developer</h5>
+					<hr>
+					<p>Application developer at Tata Consultancy Services.</p>
+					<p>Handled the back-end of an Loan Processing application worth 1000 crores. The product handle thousands of transactions from a wide range of customers every day.</p>
+				</div>
+			</div>
+			<div class='col-md-6'>
+				<div class="card card-body h-100"></div>				
+			</div>
+		</div>
+		<br>
+		<div class = 'row'>
+			<div class='col-md-6'>
+				<div class="card card-body h-100"></div>
+			</div>
+			<div class='col-md-6'>
+				<div class="card card-body h-100"></div>				
+			</div>
+		</div>
+		<br>
+
+	</div>
 </body>
 </html>
